@@ -51,3 +51,28 @@
   height: 300px;
   border-radius: 7px;
 }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 5%;
+}
+.star {
+  width: 8%;
+  margin-top: 10px;
+}
+.title {
+  margin: 10px 10px 10px 5px;
+}
+.imgcover {
+  padding: 2%;
+  height: 15%;
+  background: black;
+  margin: 6px;
+}
+.imgdiv {
+  width: 28%;
+  height: 80%;
+  border-radius: 50%;
+  background: red;
+}
