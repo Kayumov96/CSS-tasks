@@ -1,20 +1,21 @@
 .container {
-  width: 100vw;
-  height: 100vh;
+  width: fit-content;
+  /* height: 100vh; */
   padding: 0;
   margin: 0;
   background-color: rgba(200, 200, 34, 0.082);
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-block;
+  /* flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .child {
   display: inline-block;
-  background-color: bisque;
-  width: 30%;
+  background-color: white;
+  width: 200px;
   height: 300px;
   border-radius: 7px;
+  margin: 20px;
 }
 
 .header {
