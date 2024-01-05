@@ -35,3 +35,20 @@
   font-size: 18px;
   border-bottom: 2px solid #000;
 }
+.eye {
+  position: absolute;
+  top: 335px;
+  right: 32%;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(29, 135, 184);
+  border: none;
+  border-radius: 5px;
+}
+.container a {
+  color: rgb(29, 135, 184);
+  text-decoration: none;
+}
