@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: blueviolet;
+}
+.header {
+  flex: 1;
+  height: 200px;
+  background-color: gold;
+}
+.body {
+  display: flex;
+  flex: 6;
+  gap: 20px;
+}
+.navbar {
+  flex: 1;
+  background-color: gold;
+}
+.contents {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.up {
+  flex: 2;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.first {
+  flex: 2;
+}
+.middle {
+  flex: 2;
+  background-color: gold;
+}
+.bottom {
+  flex: 2;
+  background-color: gold;
+}
+.footer {
+  flex: 1;
+  background-color: gold;
+}
