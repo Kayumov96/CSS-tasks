@@ -52,4 +52,64 @@
 .header {
   width: 100%;
   height: 700px;
+  background-image: url(./newfig1.jpeg);
+  background-size: cover;
+  /* position: relative; */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.headerText {
+  /* margin-top: -200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.searchdiv {
+  width: 85%;
+  display: flex;
+  /* margin-top: 100px; */
+  height: 118px;
+  background-color: #fff;
+  align-items: center;
+  color: #000;
+  justify-content: space-around;
+}
+.searchBtn {
+  width: 259px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #19bce4;
+}
+.sort1 {
+  border: 0.5px solid #19bce4;
+  width: 259px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1%;
+  gap: 5px;
+  border-radius: 0.5px;
+}
+.sort1 > p {
+  margin-left: 1.5%;
+}
+.selectLocation {
+  outline: none;
+  border: none;
+  flex: 1;
+  font-size: 18px;
+  width: 90%;
+  padding: 0px;
 }
