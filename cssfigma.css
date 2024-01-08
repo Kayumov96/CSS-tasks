@@ -216,6 +216,15 @@
 }
 .innerLooking {
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 85%;
-  background: #000;
+  line-height: 100%;
+}
+.popularPlaces {
+  width: 100%;
+  height: 684px;
+  padding: 10%;
+  text-align: center;
 }
