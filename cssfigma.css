@@ -88,6 +88,11 @@
   justify-content: center;
   align-items: center;
   background: #19bce4;
+  color: #fff;
+}
+#cons {
+  width: 169px;
+  height: 59px;
 }
 .sort1 {
   border: 0.5px solid #19bce4;
@@ -144,7 +149,7 @@
 }
 .aboutRight {
   flex: 1;
-  padding: 1% 5%;
+  padding: 1% 7%;
   display: flex;
   flex-direction: column;
 }
@@ -154,9 +159,20 @@
 }
 .rightBtm {
   display: flex;
+  flex-direction: row;
   flex: 1;
 }
 .bottomRight {
   flex: 1;
-  color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+#supportsvg {
+  width: 56px;
+  height: 56px;
+}
+#spt {
+  width: 56px;
+  height: 56px;
 }
