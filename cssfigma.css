@@ -5,6 +5,9 @@
   font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
+.navMenu {
+  cursor: pointer;
+}
 .container {
   width: 100%;
   height: 100%;
@@ -29,6 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .menu {
   display: flex;
@@ -47,6 +51,7 @@
   border: none;
   background-color: #19bce4;
   color: #fff;
+  cursor: pointer;
 }
 .header {
   width: 100%;
@@ -89,6 +94,7 @@
   align-items: center;
   background: #19bce4;
   color: #fff;
+  cursor: pointer;
 }
 #cons {
   width: 169px;
@@ -116,6 +122,7 @@
   font-size: 18px;
   width: 90%;
   padding: 0px;
+  cursor: pointer;
 }
 .aboutUs {
   width: 100%;
@@ -167,6 +174,7 @@
   display: flex;
   flex-direction: column;
   gap: 10%;
+  cursor: pointer;
 }
 
 .supportsvg {
@@ -213,6 +221,7 @@
   align-items: center;
   padding: 3%;
   gap: 3%;
+  cursor: pointer;
 }
 .innerLooking {
   width: 80%;
@@ -294,18 +303,26 @@
   position: relative;
 }
 .blur {
-  /* Glassmorphism card effect */
   display: flex;
-  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  width: 40%;
+  height: 40%;
+  /* align-items: center; */
   justify-content: center;
-  line-height: 3%;
+  line-height: 140%;
   color: #fff;
-  margin-top: 30%;
-  margin-left: 40%;
+  margin-top: 25%;
+  margin-left: 30%;
   position: absolute;
   backdrop-filter: blur(7px) saturate(153%);
   -webkit-backdrop-filter: blur(7px) saturate(153%);
   background-color: rgba(143, 150, 160, 0.63);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  cursor: pointer;
+}
+#bangladesh {
+  height: 20%;
+  margin-left: 2%;
 }
