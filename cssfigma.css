@@ -18,14 +18,8 @@
   display: flex;
   width: 100%;
   height: 130px;
-  /* align-items: center;
-  justify-content: space-around;
-  font-weight: 300;
-  /* flex: 1; */
-  /* gap: 40px; */
   display: flex;
   padding: 2%;
-  /* background-color: #8ad1e2; */
 }
 .logo {
   flex: 1;
@@ -324,5 +318,33 @@
 }
 #bangladesh {
   height: 20%;
-  margin-left: 2%;
+  margin-left: 1%;
+}
+.whyChoose {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 550px;
+  padding: 10%;
+  position: relative;
+  background: #f8fdfe;
+}
+#read {
+  height: 56px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team {
+  position: absolute;
+  width: 60%;
+  right: 3%;
+  bottom: 20%;
+}
+.peopleContainer {
+  width: 100%;
+  height: 720px;
+  padding: 10%;
+  background-color: #fff8f7;
 }
