@@ -353,16 +353,39 @@
 .feedback {
   height: 90%;
   width: 100%;
-  background: blueviolet;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5%;
+  gap: 10%;
+  padding: 5%;
 }
 .feedbackCard {
-  height: 380px;
-  /* width: 50%; */
+  height: 200px;
+  position: relative;
   flex: 1;
-  background-color: #fff;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 80%;
+}
+.imeg {
+  width: 60%;
+  height: 60%;
+  left: 20%;
+  bottom: 75%;
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+}
+.imeg img {
+  height: 100%;
+  width: 100%;
+}
+.star {
+  height: 16px;
+  width: 50%;
+  margin-left: 24%;
 }
