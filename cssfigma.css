@@ -347,4 +347,22 @@
   height: 720px;
   padding: 10%;
   background-color: #fff8f7;
+  text-align: center;
+  line-height: 250%;
+}
+.feedback {
+  height: 90%;
+  width: 100%;
+  background: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.feedbackCard {
+  height: 380px;
+  /* width: 50%; */
+  flex: 1;
+  background-color: #fff;
 }
